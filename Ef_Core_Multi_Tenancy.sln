@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ef_Core_Multi_Tenancy", "Ef_Core_Multi_Tenancy\Ef_Core_Multi_Tenancy.csproj", "{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8B1A079-2812-4FC4-BAEC-5E4B2D0731D1}
+	EndGlobalSection
+EndGlobal
