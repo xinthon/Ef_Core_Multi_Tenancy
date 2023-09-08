@@ -1,20 +1,17 @@
-﻿using Ef_Core_Multi_Tenancy.Data;
+﻿using Ef_Core_Multi_Tenancy.Core.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Ef_Core_Multi_Tenancy.Extensions
+namespace Ef_Core_Multi_Tenancy.Core.Extensions
 {
     public static class DbContextExtensions
     {
         public static IServiceCollection AddDbContextExtension(this IServiceCollection services)
         {
+            services.AddSingleton<ITenantProvider, TenantProvider>();
             services.AddDbContext<TenantDbContext>();
             services.AddDbContext<TenantAwareDbContext>();
-
             return services;
         }
     }

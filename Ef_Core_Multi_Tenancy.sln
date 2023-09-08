@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ef_Core_Multi_Tenancy", "Ef_Core_Multi_Tenancy\Ef_Core_Multi_Tenancy.csproj", "{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ef_Core_Multi_Tenancy.Core", "Ef_Core_Multi_Tenancy.Core\Ef_Core_Multi_Tenancy.Core.csproj", "{92D1F9A2-D907-4D46-A715-47794879650A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C50B4219-22FD-4D2A-9E2D-0AB8F8F5A7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D1F9A2-D907-4D46-A715-47794879650A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D1F9A2-D907-4D46-A715-47794879650A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D1F9A2-D907-4D46-A715-47794879650A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D1F9A2-D907-4D46-A715-47794879650A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
